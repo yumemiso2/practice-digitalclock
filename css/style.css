@@ -1,0 +1,142 @@
+@font-face {
+  font-family: "DSEG7Classic-Italic";
+  src: url(/assets/fonts/DSEG7Classic-Italic.ttf) format(truetype);
+  src: url(/assets/fonts/DSEG7Classic-Italic.woff) format(woff);
+}
+@font-face {
+  font-family: "DSEG14Classic-Italic";
+  src: url(/assets/fonts/DSEG14Classic-Italic.ttf) format(truetype);
+  src: url(/assets/fonts/DSEG14Classic-Italic.woff) format(woff);
+}
+
+body {
+  height: 100vh;
+  font-family: "DSEG7Classic-Italic",sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  color: #808080;
+}
+
+.DigitalClock__Inner {
+
+  width: 550px;
+  padding: 24px;
+  border: solid 10px;
+  border-radius: 20px;
+  background-color: beige;
+  height: auto;
+}
+
+.clockWrapper {
+
+  position: relative;
+  color: #808080;
+  border-bottom: #808080 solid;
+
+  margin: 16px 0;
+
+
+  font-size: 100px;
+}
+
+
+
+.clockWrapper__Inner {
+  width: 100%;
+  margin: 8px 0;
+  width: 482px;
+
+}
+
+.clockPanel {
+  width: 100%;
+  text-align: center;
+}
+
+.clockPanel::before {
+  position: absolute;
+  top: 0;
+  content: "88:88";
+  color: rgba(0,0,0,0.1);
+}
+
+.clockPanel__Inner {
+  text-align: center;
+}
+
+.clockPanel--ss {
+  font-size: 32px;
+  position: relative;
+}
+
+.clockPanel--ss::before {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  content: "88";
+  color: rgba(0,0,0,0.1);
+}
+
+
+.Date__Inner {
+  width: 482px;
+  text-align: center;
+}
+
+.Date__Text {
+  font-size: 48px;
+}
+
+.Date__Text.Date__Text--Year {
+  position: relative;
+}
+
+.Date__Text.Date__Text--Year::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "8888";
+  color: rgba(0,0,0,0.1);
+}
+
+.Date__Text--Date {
+  position: relative;
+}
+
+.Date__Text--Date::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  content: "88";
+  color: rgba(0,0,0,0.1);
+}
+
+.Date__Text.Date__Text--Month {
+  position: relative;
+}
+
+.Date__Text--Month::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  content: "88";
+  color: rgba(0,0,0,0.1);
+}
+
+
+.Date__Text.Date__Text--Week {
+  position: relative;
+  font-family: "DSEG14Classic-Italic", sans-serif;
+  font-size: 32px;
+}
+
+.Date__Text.Date__Text--Week::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  content: "~~~";
+  color: rgba(0,0,0,0.1);
+}

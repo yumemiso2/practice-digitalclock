@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>デジタル時計</title>
+  <link rel="stylesheet" href="/css/ress.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="/js/script.js" defer></script>
+</head>
+<body onload="strClock();">
+  <div class="DigitalClock">
+    <div class="DigitalClock__Inner">
+      <div class="clockWrapper">
+        <div class="clockWrapper__Inner">
+          <div class="clockPanel__Wrapper">
+            <div class="clockPanel__Inner">
+              <span class="clockPanel" id="pos"></span>
+              <span class="clockPanel--ss" id="js-clockPanel--ss"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="DigitalClock__Date">
+        <div class="Date__Inner">
+          <span class="Date__Text Date__Text--Year" id="js-Date__Year"></span>
+          <span class="Date__Text Date__Text--Month" id="js-Date__Month"></span>
+          <span class="Date__Text Date__Text--Date" id="js-Date__Date"></span>
+          <span class="Date__Text Date__Text--Week" id="js-Date__Week"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
