@@ -17,7 +17,6 @@ function getTime() {
   // let we = "0";
   let i = we;
 
-  console.log(i);
 
   // 曜日取得のためのif文
   function checkDayOfWeek(day) {
@@ -42,7 +41,6 @@ function getTime() {
   }
   // day のなかに i を代入
   const result = checkDayOfWeek(i);
-  console.log(result); // 出力: "TUE"
 
 
 // 曜日取得のためのif文
