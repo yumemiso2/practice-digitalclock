@@ -1,12 +1,12 @@
 @font-face {
   font-family: "DSEG7Classic-Italic";
-  src: url(../assets/fonts/DSEG7Classic-Italic.ttf) format(truetype);
-  src: url(../assets/fonts/DSEG7Classic-Italic.woff) format(woff);
+  src: url(https://yumemiso2.github.io/practice-digitalclock/assets/fonts/DSEG7Classic-Italic.ttf) format(truetype);
+  src: url(https://yumemiso2.github.io/practice-digitalclock/assets/fonts/DSEG7Classic-Italic.woff) format(woff);
 }
 @font-face {
   font-family: "DSEG14Classic-Italic";
-  src: url(../assets/fonts/DSEG14Classic-Italic.ttf) format(truetype);
-  src: url(../assets/fonts/DSEG14Classic-Italic.woff) format(woff);
+  src: url(https://yumemiso2.github.io/practice-digitalclock/assets/fonts/DSEG14Classic-Italic.ttf) format(truetype);
+  src: url(https://yumemiso2.github.io/practice-digitalclock/assets/fonts/DSEG14Classic-Italic.woff) format(woff);
 }
 
 body {
